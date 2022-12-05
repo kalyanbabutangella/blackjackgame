@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="./PNG/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oooh+Baby&family=Pushster&family=Teko&family=Ubuntu:ital@1&family=Vujahday+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Black Jack</title>
+</head>
+<body>
+    <img src="./PNG/logo.png" class="logo">
+    <h1 class="title">BLACK JACK</h1>
+    <div class="main">
+        <h2><span id="command">Let's Play</span></h2>
+        <div class="row1">
+            <div id="your-box">
+                <h2>You: <span id="yourscore">0</span></h2>
+            </div>
+            <div id="dealer-box">
+                <h2>Dealer: <span id="dealerscore">0</span></h2>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="buttons">
+                <button class="hit-btn" id="hit" onmouseover="tink.play()" > Hit </button> 
+                <button class="stand-btn" id="stand" onmouseover="tink.play()">Stand</button>
+                <button class="deal-btn" id="deal" onmouseover="tink.play()">Deal</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
